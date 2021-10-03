@@ -11,13 +11,13 @@ top=Tk()
 top.title("contact book")
 conn=sqlite3.connect("mov.db")
 c=conn.cursor()
-#c.execute("""create table movies(
- #         name text,
-  #        actor varchar,
-   #       actress integer,
-    #      director varchar,
-     #     year_of_release integer)
-      #    """)
+c.execute("""create table movies(
+          name text,
+          actor varchar,
+          actress integer,
+          director varchar,
+          year_of_release integer)
+          """)
 
 def save():
     conn=sqlite3.connect("mov.db")
