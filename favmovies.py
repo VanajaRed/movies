@@ -6,7 +6,7 @@ rows=[('Thimmarusu','Satyadev kancharana','Priyanka Jawalkar','Sharan koppisetty
 ('Narappa','Venkatesh','Priyamani','Srikanth addala',2021),
 ('Paagal','Vishwak Sen','Nivetha Pethuraj','Naresh Kuppili',2021),
 ('Jaanu','Sharwanand','Samantha Akkineni','C.Prem Kumar',2020),
-('Hit','Vishwak Sen','Ruhani Sharma','Sailesh Kolanu,2020),
+('Hit','Vishwak Sen','Ruhani Sharma','Sailesh Kolanu',2020),
 ('V','Nani','Nivetha Thomas','Mohana Krishna',2020)]
 c.executemany('insert into favmovies values(?,?,?,?,?)',rows)
 c.execute("select * from favmovies")
